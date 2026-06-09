@@ -74,6 +74,11 @@ st.markdown("""
     .stChatMessage {
         border-radius: 12px !important;
         margin-bottom: 0.5rem !important;
+        color: #e2e8f0 !important;
+    }
+    
+    .stChatMessage * {
+        color: #e2e8f0 !important;
     }
     
     /* Source cards */
