@@ -1,0 +1,25 @@
+# Ambiente
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# ChromaDB local
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dados temporários
+*.log
+
+# Build
+build/
+*.egg-info/

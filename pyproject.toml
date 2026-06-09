@@ -1,0 +1,24 @@
+[project]
+name = "podcast-qa-assistant"
+version = "1.0.0"
+description = "Assistente de IA para Q&A em podcasts e vídeos do YouTube com RAG, tool-use, cache semântico e model routing."
+requires-python = ">=3.10"
+
+dependencies = [
+    "youtube-transcript-api>=1.2.3",
+    "chromadb>=0.5.0",
+    "groq>=0.25.0",
+    "streamlit>=1.40.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+eval = [
+    "ragas>=0.1.0",
+    "datasets>=2.14.0",
+    "langchain-groq>=0.1.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
