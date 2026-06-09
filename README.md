@@ -2,8 +2,7 @@
 
 > Assistente de IA que permite buscar informações em podcasts e vídeos do YouTube com link direto para o trecho exato.
 
-<!-- GIF ou Screenshot da demo aqui -->
-<!-- ![Demo](docs/demo.gif) -->
+![Demo](docs/demo.gif)
 
 ---
 
