@@ -1,4 +1,4 @@
-# 🎙️ Podcast Q&A Assistant
+# 🎙️ Sintetiza
 
 > Assistente de IA que permite buscar informações em podcasts e vídeos do YouTube com link direto para o trecho exato.
 
