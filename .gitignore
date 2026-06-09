@@ -5,8 +5,7 @@ venv/
 __pycache__/
 *.pyc
 
-# ChromaDB local
-chroma_db/
+
 
 # IDE
 .vscode/
