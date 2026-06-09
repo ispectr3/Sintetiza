@@ -198,6 +198,7 @@ python -m pytest tests/test_smoke.py -v
 
 ## 👥 Equipe
 
+| Aluno | Frente de Trabalho |
 |-------|-------------------|
 | **Camila Soares** | Pipeline RAG + Tool-use (`rag.py`, `tools.py`, `ingest.py`) |
 | **Kaique Pinheiro** | Cache + Routing + UI + Deploy (`cache.py`, `routing.py`, `streamlit_app.py`) |
