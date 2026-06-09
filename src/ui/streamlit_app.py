@@ -390,6 +390,7 @@ if prompt := st.chat_input("Faça sua pergunta sobre os podcasts/vídeos..."):
                 sources = cached.get("sources", [])
                 tool_used = None
                 cache_hit = True
+                cost = 0.0
             else:
                 # 2. Model routing
                 model = st.session_state.router.route(prompt)
