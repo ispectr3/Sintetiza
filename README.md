@@ -9,7 +9,7 @@
 
 ## 📋 Problema
 
-Você assiste **horas** de podcasts e vídeos técnicos por semana, mas quando precisa encontrar aquela informação específica, precisa reassistir tudo. 
+Você assiste **horas** de podcasts e vídeos técnicos por semana, mas quando precisa encontrar aquela informação específica, precisa reassistir tudo.
 
 **Solução:** Um assistente de IA que indexa transcrições de vídeos do YouTube e responde perguntas com o **trecho exato** e **link direto com timestamp** (`youtube.com/watch?v=XXX&t=342s`).
 
@@ -80,6 +80,7 @@ a partir de dados...
 ## 🚀 Setup
 
 ### Pré-requisitos
+
 - Python 3.10+
 - API Key do Groq (grátis): [console.groq.com](https://console.groq.com)
 
@@ -117,6 +118,7 @@ streamlit run src/ui/streamlit_app.py
 ## 📊 Métricas Observadas
 
 ### Custo por Requisição
+
 | Métrica | Valor |
 |---------|-------|
 | Custo médio (com routing) | ~$0.0001/req |
@@ -125,6 +127,7 @@ streamlit run src/ui/streamlit_app.py
 | Custo com cache hit | $0.00 |
 
 ### Cache Semântico
+
 | Métrica | Valor |
 |---------|-------|
 | Threshold de similaridade | 0.92 |
@@ -134,6 +137,7 @@ streamlit run src/ui/streamlit_app.py
 _*Hit-rate varia conforme padrão de uso. Perguntas repetidas/similares aumentam o hit-rate._
 
 ### Latência
+
 | Métrica | Valor |
 |---------|-------|
 | Latência média (API) | ~1.5s |
@@ -145,6 +149,7 @@ _*Hit-rate varia conforme padrão de uso. Perguntas repetidas/similares aumentam
 ## 🎬 Corpus
 
 5 vídeos do canal **Código Fonte TV** (YouTube):
+
 1. O que é Machine Learning?
 2. O que é Inteligência Artificial?
 3. O que são Microsserviços?
@@ -193,13 +198,12 @@ python -m pytest tests/test_smoke.py -v
 
 ## 👥 Equipe
 
-| Aluno | Frente de Trabalho |
 |-------|-------------------|
-| **Aluno A** | Pipeline RAG + Tool-use (`rag.py`, `tools.py`, `ingest.py`) |
-| **Aluno B** | Cache + Routing + UI + Deploy (`cache.py`, `routing.py`, `streamlit_app.py`) |
+| **Camila Soares** | Pipeline RAG + Tool-use (`rag.py`, `tools.py`, `ingest.py`) |
+| **Kaique Pinheiro** | Cache + Routing + UI + Deploy (`cache.py`, `routing.py`, `streamlit_app.py`) |
 
 ---
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido como trabalho acadêmico para a disciplina de LLMs.
+Este projeto foi desenvolvido como trabalho acadêmico para a disciplina Desenvolvendo Software com IA Generativa.
